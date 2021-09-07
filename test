@@ -1,7 +1,5 @@
 from seleninum import webdriver
-class Test():
-    def setup (self):
-        self.driver = webdriver.Chrome()
-    def teardown(self):
-        pass
-    def test
+#掉起浏览器
+def test_selenium():
+    driver = webdriver.Chrome()
+    driver.get("https://baidu.com")
